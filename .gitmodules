@@ -1,0 +1,9 @@
+[submodule "clubm8core"]
+	path = clubm8core
+	url = https://github.com/clubm8/clubm8-core
+[submodule "clubm8web"]
+	path = clubm8web
+	url = https://github.com/clubm8/clubm8-web
+[submodule "clubm8api"]
+	path = clubm8api
+	url = https://github.com/clubm8/clubm8-api

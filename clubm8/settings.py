@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'clubm8api',
+    'clubm8core',
+    'clubm8web',
 ]
 
 MIDDLEWARE = [

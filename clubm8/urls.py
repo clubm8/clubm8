@@ -15,8 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from tastypie import api as tpapi
+
+from clubm8api import api as c8api
+
+api = tpapi.Api()
+api.register(c8api.EventResource())
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('clubm8web.urls')),
+    url(r'^api/', include(api.urls)),
 ]

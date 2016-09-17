@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'clubm8core',
     'clubm8web',
     'tastypie',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [

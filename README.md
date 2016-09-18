@@ -1,5 +1,7 @@
 # clubm8
 
+[![Build Status](https://travis-ci.org/clubm8/clubm8.svg?branch=master)](https://travis-ci.org/clubm8/clubm8)
+
 This is an example project for clubm8. DO NOT USE THIS REPOSITORY FOR
 PRODUCTION unless you generate a new SECRET_KEY in `clubm8/settings.py`!
 

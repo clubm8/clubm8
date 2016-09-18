@@ -5,3 +5,4 @@ django-tastypie==0.13.3
 python-dateutil==2.5.3
 python-mimeparse==1.5.2
 six==1.10.0
+unittest-xml-reporting==2.1.0

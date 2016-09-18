@@ -125,3 +125,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 TASTYPIE_DEFAULT_FORMATS = ['json']
+
+TEST_RUNNER = 'xmlrunner.extra.djangotestrunner.XMLTestRunner'
+TEST_OUTPUT_DIR = '.test-xml'
+TEST_OUTPUT_VERBOSE = 2

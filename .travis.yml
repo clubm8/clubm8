@@ -1,14 +1,11 @@
 language: python
-
 python:
-  - "3.4"
-  - "3.5"
-
+- '3.4'
+- '3.5'
 install:
-  - "pip install -r requirements.txt"
-
+- pip install -r requirements.txt
 script:
-  - "./manage.py test"
-
+- "./manage.py test"
 notifications:
-    slack: clubm8:${SLACK_TOKEN}
+  slack:
+    secure: lwuIZD3vXe8YgbR4e0RVBqK4Ha+0OSFQEBhrwVMtIKtz/xkhiF0IrkW2DFz76yuAv6u25PLQyFGRKYf966NgBNJdNuU6OYz+APf4vJiKCPxW0hsEmjQJsZqwEEukmwvhoXr16BP2M3VuzZxW1z2BlIsW/CX0MdELwpTJ9474DvW/CLqDzUBDhrV7zlnTZPiBSTpMnamVe8ooKWZekmolGtttAHoraek9RPv6CQd2u4iZAHXlZzfn7qCLbVv4UWi5hfcUslZQGtygDuleS38gBTKt199niC6d0JQ1C4ykNE7kaaClDP/pxiifhke8MEpqwl00vc0I0i4f16lfSS76CH84rkTlmaW40KCZzGl13QswZUZM0+28SXRAh3eJH8nV1SvF+XoIdfZD0XAtkcmKoYpNlai47uVGJbFk34pKhycTQ5QUXP6vaV8ecPfgha6LArzcSMs5TplaYoqbURdDaKyj986u6mqQI5kBMPFpbXeulnyap9MGMN/Zotm0wS6S/7z+RyYYNQt414sLbTT3pulxNnBTCFyEWmrOn7CbKZyFgIn6Ejhngp64bWy8H9DGtOx71eq+W1ksEPrtGcrStk4eEBY+PsYK4pRi5ar5nLoBqZLw4Q7AY1XxGt4hpP2QfCqUBV0ID0blth1dk14HL5y9IvrSYoKcu5xXJfXBVKI=

@@ -9,3 +9,6 @@ install:
 
 script:
   - "./manage.py test"
+
+notifications:
+    slack: clubm8:${SLACK_TOKEN}
